@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Интенсивность распространения информации через слухи</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Интенсивность забывания информации предадептами</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Интенсивность забывания информации адептами</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Модель распространения информации в социуме описывается следующей системой дифференциальных уравнений:</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>a - интенсивностью распространения информации через СМИ;
+b - интенсивностью распространения информации через слухи;
+X1 - число адептов в первой группе;
+x1 - число предадептов в первой группе;
+X2 - число адептов в второй группе;
+x2 - число предадептов в второй группе;
+y - интенсивность забывания информации адептами
+d - интенсивность забывания информации предадептами
+f1(t) - количество доступных индивидов из первой подгруппы  
+f2(t) -  количество доступных индивидов из второй подгруппы</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Компьютерная модель может использоваться для упрощения процесса анализа 
+распространения информации в социуме и для определения содержательных
+характеристик, управление которыми может стимулировать распространение 
+информации в нужном для участника направлении (Ускорение или замедление
+распространения информации в обществе). Разрабатываемая модель позволяет
+задавать параметры социальной общности (численность групп 1 и 2- N1 и N2)
+и характеристики распространения информационных потоков
+(коэффициенты интенсивности распространения посредством СМИ и через
+межличностное общение, интенсивности “забывания информации” 
+предадептами и адептами). На основании данной информации 
+пользователь получает информацию о динамике
+распространения информации по времени, т.е. количество «адептов» X1 и X2
+ «предадептов» x1 и x2 в конкретный момент времени;
+Главное окно программы можно разделить на 2 части:
+Параметры модели. В данной части задаются основные параметры 
+компьютерной модели: численность групп 1 и 2 (N1, N2),
+коэффициенты интенсивности распространения по внутреннему
+и внешнему каналам, а так же интенсивности “забывания” информации
+предадептами  и адептами.
+График. В данной области производится графическая интерпретация результата.
+На графике строятся кривые распространения информации.</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Параметры модели:</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Ключевое значение для исхода процесса распространения информации играет производная пороговой функции у наиболее
+ открытых для информации членов первой подгруппы. В данном примере, пороговые функции f1 и f2 выбраны таким образом, 
+что  информация распространяется по группам так, что для первой группы это приводит к ненулевому количеству адептов, 
+для второй группы информация распространяется только через предадептов.</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>Параметры модели:</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>Большое значение пороговой функции (~ равное числу участников группы), говорит о том, что каждый участник группы готов
+ стать адептом, для второй группы видим, что почти вся группа стала адептами, лишь малая часть
+ (Возникающая из-за интенсивности забывания информации адептами) осталась предадептами. 
+В первой группе, из-за слишком низкого значения ф-ции f1 - Кол-во людей готовых стать адептами,
+ вся группа стала предадептами из-за высокой интенсивности распространения информации.</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>Упражнение:
+Изменяя параметры модели - a,b,d,y, а так же функции f1 и f2, получить систему в которой, 
+количество адептов и предадептов в каждой из групп не нулевое</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>Интенсивность забывания информации адептами</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Кол-во человек получающих информацию из всех источников</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>Интенсивность забывания информации предадептами</value>
+  </data>
+  <data name="label47.Text" xml:space="preserve">
+    <value>Интенсивность распространения информации через слухи</value>
+  </data>
+  <data name="label51.Text" xml:space="preserve">
+    <value>Интенсивность распространения информации через СМИ</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Кол-во человек получающих информацию через межличностное общение</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Интенсивность распространения информации через СМИ</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Программа</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Описание моделей</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Обучение</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Описание математической модели</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Описание компьютерной модели</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Пример 1</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>Пример 2</value>
+  </data>
+  <data name="tabPage8.Text" xml:space="preserve">
+    <value>Упражнение</value>
+  </data>
+  <data name="text_error" xml:space="preserve">
+    <value>Некорректное значение</value>
+  </data>
+</root>
